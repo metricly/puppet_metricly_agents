@@ -20,7 +20,7 @@ class puppet_metricly_agents::linux {
   path    => ['/usr/bin', '/bin'],
     }
     package { 'netuitive-agent':
-      ensure => '{agentversion}', #replace {agentversion} with an agent version e.g. 0.7.6-188.el6
+      ensure => '{agentversion}', #replace {agentversion} with an agent version e.g. 0.7.6-188
       before => Service['netuitive-agent'],
     }
 }

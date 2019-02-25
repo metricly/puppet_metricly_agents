@@ -42,8 +42,8 @@
 #
 # Copyright 2019 Your name here, unless otherwise noted.
 #
+#replace undef with your linux and windows api keys wrapped in single quotes
 class puppet_metricly_agents(
-  #replace undef with your linux and windows api keys wrapped in single quotes
   $net_api_key_linux = undef,
   $net_api_key_win   = undef,
   ) {

@@ -1,6 +1,6 @@
 {
   "name": "metricly-puppet_metricly_agents",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": "metricly",
   "summary": "This module will install, configure, and start Metricly's Linux and Windows agents.",
   "license": "Apache-2.0",
